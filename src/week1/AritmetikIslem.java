@@ -1,5 +1,6 @@
+package week1;
 
-    public class AritmetikIslem {
+public class AritmetikIslem {
         public static void main(String[] args) {
             // Sabit sayılar
             int A = 10;
