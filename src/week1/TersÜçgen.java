@@ -1,6 +1,5 @@
 package week1;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class TersÜçgen {
