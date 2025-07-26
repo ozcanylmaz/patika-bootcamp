@@ -15,11 +15,11 @@ public class GeçerliŞifreKontrolüü {
 
         Boolean uzunMu = psw.length()>=8;
 
-        boolean ilkharfbüyükolmazlı = false;
+        boolean ilkharfbüyükolmalı = false;
         for (int i=0; i<psw.length(); i++) {
             char c = psw.charAt(i);
             if (c >= 'A' && c <= 'Z') {
-                ilkharfbüyükolmazlı = true;
+                ilkharfbüyükolmalı = true;
             }
         }
                 boolean kucukHarfvarMı = false;
@@ -34,7 +34,7 @@ public class GeçerliŞifreKontrolüü {
 
                 boolean ozelkarakterVarmı = psw.contains("?");
 
-                if(uzunMu && ilkharfbüyükolmazlı && kucukHarfvarMı && ozelkarakterVarmı) {
+                if(uzunMu && ilkharfbüyükolmalı && kucukHarfvarMı && ozelkarakterVarmı) {
                     System.out.println("şifre geçerli");
                 }else{
                     System.out.println("şifre geçerli değil");
