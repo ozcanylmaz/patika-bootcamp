@@ -1,6 +1,5 @@
-package week1;
+package week1.MinMax;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class MinMax {

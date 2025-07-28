@@ -1,4 +1,4 @@
-package week2;
+package week2.ÇarpımTablosu;
 
 public class ÇarpımTablosu {
     public static void main(String[] args) {

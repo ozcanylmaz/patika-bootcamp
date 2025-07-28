@@ -1,4 +1,4 @@
-package week1;
+package week1.UçakBileti;
 
 import java.util.Scanner;
 

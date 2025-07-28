@@ -1,4 +1,4 @@
-package week2;
+package week2.GeçerliŞifreKontrolü;
 
 import java.util.Scanner;
 
@@ -15,11 +15,11 @@ public class GeçerliŞifreKontrolüü {
 
         Boolean uzunMu = psw.length()>=8;
 
-        boolean ilkharfbüyükolmalı = false;
+        boolean ilkharfibüyükolmalı = false;
         for (int i=0; i<psw.length(); i++) {
             char c = psw.charAt(i);
             if (c >= 'A' && c <= 'Z') {
-                ilkharfbüyükolmalı = true;
+                ilkharfibüyükolmalı = true;
             }
         }
                 boolean kucukHarfvarMı = false;
@@ -34,7 +34,7 @@ public class GeçerliŞifreKontrolüü {
 
                 boolean ozelkarakterVarmı = psw.contains("?");
 
-                if(uzunMu && ilkharfbüyükolmalı && kucukHarfvarMı && ozelkarakterVarmı) {
+                if(uzunMu && ilkharfibüyükolmalı && kucukHarfvarMı && ozelkarakterVarmı) {
                     System.out.println("şifre geçerli");
                 }else{
                     System.out.println("şifre geçerli değil");

@@ -1,4 +1,4 @@
-package week1;
+package week1.Aritmetikişlemler;
 
 public class AritmetikIslem {
         public static void main(String[] args) {

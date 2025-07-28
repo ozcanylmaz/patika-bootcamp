@@ -1,4 +1,4 @@
-package week1;
+package week1.artıkyıl;
 
 import java.util.Scanner;
 
