@@ -1,4 +1,4 @@
-package week3.HarfFrekansıBulma;
+package week3.HarfBulmaOyunu;
 
 import java.util.ArrayList;
 
