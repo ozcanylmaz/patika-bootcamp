@@ -54,7 +54,7 @@ public class Employee {
         double totalSalary = salary + raise;
 
         return "Adı: " + name +
-                "\nMaaşı: " + salary +
+                 "\nMaaşı: " + salary +
                 "\nÇalışma Saati: " + workHours +
                 "\nBaşlangıç Yılı: " + hireYear +
                 "\nVergi: " + tax +
