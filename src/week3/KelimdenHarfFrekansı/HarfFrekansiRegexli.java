@@ -1,22 +1,21 @@
 package week3.KelimdenHarfFrekansı;
 
 import java.util.*;
+import java.util.*;
 
-public class HarfFrekansi {
+public class HarfFrekansiRegexli {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Kelimeleri giriniz: ");
         String input = scanner.nextLine();
 
-        // Küçük harfe çevir ve harf olmayanları çıkar
-        input = input.toLowerCase();
+        // Sadece harfleri al, diğer her şeyi sil ve küçült
+        input = input.toLowerCase().replaceAll("[^a-zğüşöçı]", "");
 
         Map<Character, Integer> frekansMap = new HashMap<>();
 
         for (char ch : input.toCharArray()) {
-            if (Character.isLetter(ch)) { // Sadece harfse
-                frekansMap.put(ch, frekansMap.getOrDefault(ch, 0) + 1);
-            }
+            frekansMap.put(ch, frekansMap.getOrDefault(ch, 0) + 1);
         }
 
         // Sonuçları yazdır
