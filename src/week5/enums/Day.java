@@ -1,4 +1,5 @@
-package week5;
+package week5.enums;
+
 public enum Day {
     SUNDAY("Kapalı"),
     MONDAY("09:00 - 17:00"),
