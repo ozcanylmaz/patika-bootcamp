@@ -1,12 +1,12 @@
-package week5.Eploye;
+package week5.InnerClasses;
 
-public class Employee {
+public class Empolye {
         private String firstName;
         private String lastName;
         private ContactInfo contactInfo; // Inner class örneği
 
         // Employee constructor
-        public Employee(String firstName, String lastName, String phone, String email) {
+        public Empolye(String firstName, String lastName, String phone, String email) {
             this.firstName = firstName;
             this.lastName = lastName;
             this.contactInfo = new ContactInfo(phone, email);
@@ -37,7 +37,7 @@ public class Employee {
 
         // Test
         public static void main(String[] args) {
-            Employee emp = new Employee("yılmaz", "Yılmaz", "0555-123-4747", "yılmaz.yilmaz@example.com");
+            Empolye emp = new Empolye("yılmaz", "Yılmaz", "0555-123-4747", "yilmaz.yilmaz@example.com");
             emp.displayEmployeeInfo();
 
         }
